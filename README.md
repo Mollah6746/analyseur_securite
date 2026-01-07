@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Analyseur Passif d'En-têtes de Sécurité HTTP
+# 🕵️‍♂️ Analyseur passif d'en-têtes de sécurité HTTP
 
 Un outil en ligne de commande Python (CLI) léger pour effectuer une analyse rapide et non intrusive de la configuration de sécurité d'un site web.
 
@@ -18,11 +18,11 @@ Ce script permet de voir en un clin d'œil si un serveur applique les protection
     * `X-Content-Type-Options`
     * `Content-Security-Policy` (CSP)
     * `Referrer-Policy`
-* 🔍 **Détection du Serveur :** Affiche la bannière `Server` si elle est présente (information utile pour la reconnaissance).
+* 🔍 **Détection du serveur :** Affiche la bannière `Server` si elle est présente (information utile pour la reconnaissance).
 * 🛡️ **Gestion d'erreurs :** Gère les URL invalides ou les sites inaccessibles sans faire planter le programme.
 * ✨ **Interface CLI propre :** Affichage clair des résultats avec des indicateurs visuels.
 
-## 🛠️ Stack Technique
+## 🛠️ Stack technique
 
 * **Langage :** Python 3.x
 * **Bibliothèques :**
